@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    border:black 40px solid;
+    
+}
+
+
+header{
+   
+    height: 50px;
+   background-color: black;
+}
+
+main{
+    background-image: url(Ressources/Images/gris.jpg);
+    height: 500px;
+}
+
+footer{
+   
+    height: 50px;
+    background-color: black;
+}
+
+.nav{
+   
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    color: black;
+}
+
+.part1,.part2{
+    
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.part4{
+   
+    height: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.containpart1{
+   
+    height: 150px;
+    width: 150px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.containpart2{
+    
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.containpart3{
+    
+    height: 90px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.containpart4{
+    
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.containpart5{
+   
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.part3{
+    display: flex;
+    justify-content: space-around;
+}
+.containpart6{
+    
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h2{
+    border:3px solid black ;
+    border-radius: 50px;
+    width: 20px;
+    height: 25px;
+    text-align: center;
+    margin-top: 35px;
+    font-weight: bold;
+    background-color: gray;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.in{
+    width: 80px;
+    height: 40px;
+    margin-top: 30px;
+    border: black 3px solid;
+}
+
+input{
+    width: 150px;
+    border: black 3px solid;
+}
+
