@@ -26,53 +26,59 @@
             <div class="containpart1">
                 <img src="Ressources/Images/langette.jpg" alt="">
                 <div class="containpart2" >
-                    <p style="font-weight: bold;">Languette</p> <br> <p style="color: red;font-weight: bold;cursor: pointer;">supprimer</p>
+                    <p style="font-weight: bold;">Languette</p> <br> <a class="sup" href="" style="color: red;font-weight: bold;cursor: pointer;">supprimer</a>
                 </div>
             </div>
             
             <div class="containpart3">
-                <h2 style="margin-right:5px;" >-</h2> <input class="in" type="text" > <h2 style="margin-left:5px;">+</h2>
+                <button class="btn-moins" style="margin-right:5px;" >-</button> <input class="in" type="text" readonly value="1" class="qty"> <button class="btn-plus" style="margin-left:5px;">+</button>
             </div>
             <div class="containpart4">
-                <input class="in" type="text">
+                <input class="in" type="text" value="10000">
+                
             </div>
             <div class="containpart5">
-                <input class="in" type="text">
+                <input class="in" type="text" value="10000">
+                
             </div>
         </div>
         <div class="part2">
             <div class="containpart1">
                 <img src="Ressources/Images/protege.jpg.crdownload" alt="">
                 <div class="containpart2">
-                    <p style="font-weight: bold;">Protège tibia </p> <br> <p style="color: red;font-weight: bold;cursor: pointer;">supprimer</p>
+                    <p style="font-weight: bold;">Protège tibia </p> <br> <a class="sup" href="" style="color: red;font-weight: bold;cursor: pointer;">supprimer</a>
                 </div>
             </div>
             <div class="containpart3">
-                <h2 style="margin-right:5px;">-</h2> <input class="in"  type="text" > <h2 style="margin-left:5px;">+</h2>
+                <button class="btn-moins" style="margin-right:5px;">-</button> <input class="in"  type="text" readonly value="1" class="qty" > <button class="btn-plus" style="margin-left:5px;">+</button>
             </div>
             <div class="containpart4">
-                <input class="in" type="text">
+                <input class="in" type="text" value="10000" >
+                
             </div>
             <div  class="containpart5" >
-                <input class="in" type="text">
+                <input class="sous-total" type="text" value="10000">
+                
             </div>
         </div>
         <div class="part3">
             <div class="containpart6">
-                <input type="text">
+                <input type="text" readonly>
             </div>
             <div class="containpart6">
-                <input type="text">
+                <input type="text" readonly>
             </div>
             <div style="border-radius: 50px;height: 20px;background-color: blue;" class="containpart6">
-                <p style="color: white;font-weight: bold;cursor: pointer;">ajouter un article</p>
+                <button style="color:red;font-weight: bold;cursor: pointer;">Ajouter un article</button>
             </div>
         </div>
     </main>
     <footer>
         <div class="part4">
-            <p style="color: white;">Total:</p>
+            <p class="total">Total:</p>
         </div>
     </footer>
+
+    <script src="panier.js"></script>
 </body>
 </html>
